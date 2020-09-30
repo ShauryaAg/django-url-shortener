@@ -7,22 +7,20 @@ h1 {
 }
 
 .wrapper {
-    margin: 0 auto;
+    margin: 0 10em;
+    display: flex;
 }
 
 form {
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
 }
 
-div{
-    margin: auto;
+span{
+    width: 100%;
 }
 
 .url-input {
-    margin: 2em auto;
-    margin-top: 0.7em;
     width: 80%;
     padding: 0.5em;
     border: none;
@@ -32,8 +30,6 @@ div{
 button{
     border: none;
     cursor: pointer;
-    width: 20%;
-    margin: auto;
 }
 
 table {
