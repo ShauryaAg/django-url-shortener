@@ -28,7 +28,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
                     'http://uri-short.herokuapp.com/',
-                    os.getenv('PROJECT_NAME') + ".glitch.me"
 ]
 
 
