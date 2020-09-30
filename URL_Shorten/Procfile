@@ -1,0 +1,2 @@
+web: gunicorn URL_Shorten.wsgi
+release: python manage.py migrate
