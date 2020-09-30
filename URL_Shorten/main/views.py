@@ -13,8 +13,10 @@ def Make(request):
     if request.method == "POST":
         if form.is_valid():
             newUrl = form.save(commit=False)
-            a = shortener().issue_token()
-            newUrl.short_url = a
+            print(newUrl)
+            if not (newUrl.short_url):
+                a = shortener().issue_token()
+                newUrl.short_url = a
             newUrl.save()
         else:
             form = UrlForm()
