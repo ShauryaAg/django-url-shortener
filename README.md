@@ -1,4 +1,5 @@
-# URL Shortener
+# URL Shortener 
+![build](https://img.shields.io/github/workflow/status/ShauryaAg/django-url-shortener/build-test)
 
 ### Dependencies
 Install all the dependencies using ```pip install -r requirements.txt```
